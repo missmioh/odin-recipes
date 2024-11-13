@@ -21,6 +21,11 @@ h2 {
     font-size: 17px;
 }
 
+.navigation {
+    width: 200px;
+    margin: 20px auto;
+}
+
 li {
     text-align: justify;
     list-style-type: circle;
@@ -46,10 +51,11 @@ a:hover {
     border-radius: 25px;
     margin: auto;
     width: 500px;
-    padding: 5px;
+    padding: 20px;
 }
 
 .wrapper.list {
     border: 5px solid #cbc7c7;
-    width: 450px;
+    width: max-content;
+    margin: 0 auto;
 }
